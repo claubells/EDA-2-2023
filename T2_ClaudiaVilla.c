@@ -9,8 +9,8 @@ int main(){
     double tiempoUsado;
     inicio = clock(); // Aqui empezamos a contar el tiempo
 
-	char nombreLista[30] = "listap2.lst";
-    char nombreTablero[30] = "prueba6.ini";
+	char nombreLista[30] = "lista1.lst";
+    char nombreTablero[30] = "tablero1.ini";
     int contadorPalabrasEncontradas = 0;
 
     FILE* archivoTableroOut = fopen("tablero.out", "w");
